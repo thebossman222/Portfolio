@@ -1,0 +1,137 @@
+			body {
+			margin: 2%;
+			background-image: url("../img/background.jpg");
+			display: flex;
+			}
+			#SelectRight {
+				display: none;
+			}
+			#textBlock {
+				font-family: sans-serif;
+				margin: 4% 2% 2% 10%;
+				padding: 5% 5% 5% 5%;
+				width:  40%;
+				color: white;
+				border: 1px solid white;
+				background-color: green;
+				border-radius: 10px;
+			}
+			#textBlock h1{
+				padding-left: 0;
+				text-align: center;
+			}
+			#coffee {
+				padding-top: 5%;
+				padding-left: 5%;
+				width: 60%;
+			}
+			#columnLeft, #columnRight {
+				display: block;
+			}
+			#columnRight {
+				padding-right: 5%;
+			}
+			#columnLeft{
+				padding-right: 5%;
+			}
+			#Select {
+				padding-left: 5%;
+				}
+				
+			#Title {
+				padding-left: 8%;
+				}
+			
+			#ButtonsTopRight , #ButtonsBottomRight {
+				margin: 0;
+				display: none;
+			}
+			#buttonstop{
+				list-style: none;
+				padding-top: 10%;
+				display: flex;
+				}
+			#buttonsbottom{
+				list-style: none;
+				padding-right: 10px;
+				padding-top: 1%;
+				display: flex;
+			}
+
+			#buttonstop img, #buttonsbottom img {
+				padding-right: 10px;
+			}
+			#image {
+				padding-left: 13%;
+				width: 70%;
+			}
+			#textblock {
+				position: relative;
+			}
+			#columnMid li{
+				border: solid orange;
+				margin-left: -15%;
+				margin-bottom: 5%;
+				font-size: 40px;
+				width: 100%;
+				background-color: black;
+				color: white;
+				list-style: none;
+				cursor: pointer;
+				border-radius: 25px;
+				text-align: center;
+			}
+			#columnMid li:hover, #columnMid li:hover{
+    background-color: orange;
+    color: black;
+    }
+				@media only screen and (max-width: 600px) {	
+				#textBlock h1{
+					padding-left: 0;
+					text-align: center;
+				}					
+				#textBlock {
+					margin-left: 5%;
+				}
+				#coffee{
+					padding-left: 20%;
+					}
+				body{
+					display: block;
+				}
+				#textBlock {
+				width: 80%;
+			}
+				#ButtonsTopRight , #ButtonsBottomRight {
+					list-style: none;
+					padding-right: 5%;
+					display: flex;
+				}
+				#ButtonsTopRight img, #ButtonsBottomRight img {
+					padding: 1%;
+					padding-left: 15%;
+					width: 80%;
+				}
+				#Title{
+					padding: 5% 10% 5% 10%;
+					width: 80%;
+				}
+				#Select {
+				position: top;
+				}
+				#columnRight  {
+						display: none;
+				}
+				#columnMid li{
+					text-align: center;
+					border: solid orange;
+					margin: 10%;
+					margin-bottom: 5%;
+					font-size: 80%;
+					width: 80%;
+					background-color: black;
+					color: white;
+					list-style: none;
+				}
+				}
+    

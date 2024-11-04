@@ -1,0 +1,259 @@
+
+body {
+    background-color: black;
+    width: 1300.33px;
+    margin:0 auto;
+    }
+#Header {
+    margin-right: 10%;
+    margin-left: 10%;   
+    margin-bottom: 10%;
+}
+#Header h1{
+    padding-left: 15%;
+    font-size: 60px;
+    border-radius: 25px;
+    border: solid orange;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    #ButtonsTop ul {
+    padding-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 50px;
+    list-style-type: none;
+    color: orange;
+    display: flex;
+    }
+    #ButtonsTop li {
+        text-align: center;
+        margin-left: 4%;
+        width: 25%;
+        border-radius: 60px;
+        border: solid orange;
+        cursor: pointer;
+}
+    #ButtonsBot ul {
+    padding-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 50px;
+    list-style-type: none;
+    color: orange;
+    display: flex;
+    }
+
+    #ButtonsBot li {
+        text-align: center;
+        margin-left: 4%;
+        width: 25%;
+        border-radius: 60px;
+        border: solid orange;
+        cursor: pointer;
+    }
+    #Title {
+        padding-top: 1%;
+    }
+    #Title h1{
+        width: 30%;
+        text-align: center;
+        margin-left: 35%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 65px;
+        color: white;
+        border-radius: 50px;
+        border: solid orange;
+    }
+#Section {
+    margin-left: 12.5%;
+    width: 75%;
+}
+#Section p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    font-size: 80px;
+    border: solid orange;
+    color: white;
+}
+#ButtonsTop li:hover, #ButtonsBot li:hover{
+    background-color: orange;
+    color: black;
+    }
+#contact h1 {
+padding-left: 27%;
+color: orange;
+font-family: Arial, Helvetica, sans-serif;
+}
+#SkillsIcons img {
+    width: 60%;
+}
+#SkillsIcons ul {
+    padding-left: 10%;
+    display: flex;
+}
+#SkillsIcons img {
+    max-width: 100%;
+    height:auto;
+}
+#Skills2Icons ul {
+    padding-left: 11%;
+}
+#Skills3Icons img {
+    max-width: 80%;
+    height:auto;
+}
+#Skills3Icons ul {
+    padding-left: 17%;
+}
+        @media only screen and (max-width: 1200px) {
+            #Header {
+                margin-bottom: 5%;
+            }
+            body {
+                width: 100%;
+                margin:0 auto;
+            }
+            #Section p {
+                font-size: 200%;
+            }
+            #Title h1{
+                width: 80%;
+                margin-left: 9%;
+                font-size: 40px;
+            }
+            #Header h1{
+                text-align: center;
+                font-size: 40px;
+                padding-left: 1%;
+            }
+            #ButtonsTop ul {
+                width: 100%;
+                text-align: center;
+                padding: 10% 0 0 0;
+                display: block;
+            }
+            #ButtonsTop li {
+                margin-left: 15%;
+                margin-bottom: 5%;
+                font-size: 80%;
+                width: 70%;
+            }
+            #ButtonsBot ul {
+                margin-top: -70px;
+                width: 100%;
+                text-align: center;
+                padding: 10% 0 0 0;
+                display: block;
+            }
+            #ButtonsBot li {
+                margin-left: 15%;
+                margin-bottom: 5%;
+                font-size: 80%;
+                width: 70%;
+            }
+            #Section {
+                margin-left: 12.5%;
+                width: 75%;
+        }
+        #contact h1 {
+            font-size: 20px;
+            padding-left: 30%;
+        }
+        #SkillsIcons img {
+            width: 70%;
+        }
+        #SkillsIcons ul {
+            padding-left: 5%;
+        }
+        #Skills2Icons img {
+            max-width: 80%;
+            height:auto;
+        }
+        #Skills2Icons ul {
+            margin-left: 6%;
+        }
+        #Skills3Icons img {
+            max-width: 95%;
+            height:auto;
+        }
+        #Skills3Icons ul {
+            padding-left: 5%;
+        }
+@media only screen and (max-width: 700px) {
+    #Header {
+        margin-bottom: 5%;
+    }
+    body {
+        width: 100%;
+        margin:0 auto;
+    }
+    #Section p {
+        font-size: 200%;
+    }
+    #Title h1{
+        width: 80%;
+        margin-left: 9%;
+        font-size: 40px;
+    }
+    #Header h1{
+        text-align: center;
+        font-size: 40px;
+        padding-left: 1%;
+    }
+    #ButtonsTop ul {
+        width: 100%;
+        text-align: center;
+        padding: 10% 0 0 0;
+        display: block;
+    }
+    #ButtonsTop li {
+        margin-left: 15%;
+        margin-bottom: 5%;
+        font-size: 80%;
+        width: 70%;
+    }
+    #ButtonsBot ul {
+        margin-top: -70px;
+        width: 100%;
+        text-align: center;
+        padding: 10% 0 0 0;
+        display: block;
+    }
+    #ButtonsBot li {
+        margin-left: 15%;
+        margin-bottom: 5%;
+        font-size: 80%;
+        width: 70%;
+    }
+    #Section {
+        margin-left: 12.5%;
+        width: 75%;
+}
+#contact h1 {
+    font-size: 17px;
+    padding-left: 10%;
+}
+#SkillsIcons img {
+    width: 70%;
+}
+#SkillsIcons ul {
+    padding-left: 5%;
+}
+#Skills2Icons img {
+    max-width: 80%;
+    height:auto;
+}
+#Skills2Icons ul {
+    margin-left: 6%;
+}
+#Skills3Icons img {
+    max-width: 95%;
+    height:auto;
+}
+#Skills3Icons ul {
+    padding-left: 5%;
+}
+}
+}
